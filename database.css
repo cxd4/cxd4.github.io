@@ -1,0 +1,17 @@
+table, td {
+    border-width  :  1px;
+}
+table {
+    border-style  :  outset;
+    border-spacing:  2px;
+}
+td {
+    border-style  :  inset;
+}
+
+td.n { /* numeric data */
+    text-align    :  right;
+}
+td.t { /* titular data */
+    text-align    :  center;
+}
